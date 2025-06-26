@@ -1,12 +1,20 @@
-# React + Vite
+# 🎮 Connect 4
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🎨 בחירת צבעים
+לפני שמתחילים, כל שחקן בוחר לעצמו צבע מהתפריט. האפליקציה לא תאפשר להתחיל אם הצבעים לא שונים – כדי למנוע בלבול.
 
-Currently, two official plugins are available:
+### ⏱ מגבלת זמן – 10 שניות לכל שחקן
+**שימו לב!** בעמוד המשחק יש טיימר לכל שחקן – אם לא בוצע מהלך תוך 10 שניות, התור עובר אוטומטית לשחקן הבא.  
+(יש תצוגת זמן למעלה בצד כדי לראות כמה זמן נשאר)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🏆 זיהוי אוטומטי של מנצח
+המשחק בודק לבד אם יש 4 דיסקים מחוברים – מאוזן, אנכי או באלכסון – ומכריז על המנצח.
 
-## Expanding the ESLint configuration
+###  מסך סיום שמופיע מעל הלוח
+במקום להסתיר את הלוח, בסיום המשחק מוצגת הודעה יפה (ניצחון או תיקו) מעל הלוח, כך שניתן לראות איך בדיוק נגמר המשחק.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  מגישות
+שחר מור - 211563820
+הודיה טל - 323007567
+אליה רצון - 211704341
+קארין בן עדן - 213505308
